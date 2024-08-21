@@ -27,7 +27,7 @@
 This repository is the official implementation of our journal paper with the same title. Channel Mixer Layer is a multimodal fusion framework for spatiotemporal predictive learning, which aims to improve the prediction accuracy of predictive channel by inputting auxiliary channel. The program deployment is based on [OpenSTL](https://github.com/chengtan9907/OpenSTL/tree/OpenSTLv0.3.0), a framework of graphic prediction without auxiliary channel input.  We improve it by adding the machine reasoning capability. Note that OpenSTL used in this program is [PyTorch](https://github.com/chengtan9907/OpenSTL/tree/OpenSTLv0.3.0) version instead of the newest Pytorch-Lightning version due to the fixed learning rate [bug](https://github.com/chengtan9907/OpenSTL/issues/113) when this research began. Currently, Channel Mixer Layer only support our [iono_electron](https://doi.org/10.5281/zenodo.13165939) dataset because most datasets for video prediction do **not** have auxiliary data input.
 
 <p align="center" width="100%">
-  <img src='https://github-production-user-asset-6210df.s3.amazonaws.com/44519745/246222226-61e6b8e8-959c-4bb3-a1cd-c994b423de3f.png' width="90%">
+  <img src='https://github.com/DrHoisu/Channel_Mixer_Layer/blob/main/figure/Figure1.png?raw=true' width="100%">
 </p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
