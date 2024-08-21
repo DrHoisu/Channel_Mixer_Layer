@@ -99,8 +99,6 @@ bash scripts/iono/tau/tau.sh
 
 #### Overview of Model Zoo
 
-We support various spatiotemporal prediction methods and provide [benchmarks](https://github.com/chengtan9907/OpenSTL/tree/master/docs/en/model_zoos) on various STL datasets. We are working on add new methods and collecting experiment results.
-
 * Spatiotemporal Prediction Methods.
 
     <details open>
