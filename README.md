@@ -90,7 +90,9 @@ bash scripts/iono/predrnnv2/predrnnv2.sh
 bash scripts/iono/simvp/simvp.sh
 bash scripts/iono/tau/tau.sh
 ```
-
+<p align="center" width="90%">
+Table The quantitative performance comparison for the different network backbones, multimodal fusion methods and input channel number $C_{\mathrm{in}}$. The computational complexity is evaluated by parameter number (Param.), Floating-point Operations Per Second (Flops) and inference speed. The prediction accuracy is evaluated by mean squared error (MSE) and mean absolute error (MAE) during low/high solar activity (LSA/HSA) periods.
+</p>
 <p align="center" width="100%">
   <img src='https://github.com/DrHoisu/Channel_Mixer_Layer/blob/main/figure/Table1.png?raw=true' width="100%">
 </p>
