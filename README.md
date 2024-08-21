@@ -99,6 +99,10 @@ bash scripts/iono/simvp/simvp.sh
 bash scripts/iono/tau/tau.sh
 ```
 
+<p align="center" width="100%">
+  <img src='https://github.com/DrHoisu/Channel_Mixer_Layer/blob/main/figure/Table1.png?raw=true' width="100%">
+</p>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 #### Overview of Model Zoo
@@ -131,7 +135,10 @@ You can understand our Channel Mixer Layer more intuitively by the following com
 ```shell
 python Understand_Mixer.py
 ```
-
+our Channel Mixer Layer is deployed as shown by the following process:
+<p align="center" width="100%">
+  <img src='https://github.com/DrHoisu/Channel_Mixer_Layer/blob/main/figure/Figure2.png?raw=true' width="100%">
+</p>
 
 ## Visualization
 
