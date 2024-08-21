@@ -155,33 +155,41 @@ The visualization of 16-channel multimodal fusion prediction with Mixer-ConvLSTM
 python tools/visualizations/vis_video.py -d iono -w work_dirs/iono/convlstm/mix_16channel --index 125 --save_dirs visualization/iono/convlstm/mix_16channel/
 ```
 
-#### static comparison
+### static comparison:
 
 <p align="center" width="100%">
   <img src='https://github.com/DrHoisu/Channel_Mixer_Layer/blob/main/figure/Figure3.png?raw=true' width="100%">
 </p>
 
-#### dynamic comparison
+### dynamic comparison:
 
 <div align="center">
 Ground Truth
-<div align=center><img src='https://github.com/chengtan9907/OpenSTL/releases/download/vis-video/mmnist_ConvLSTM.gif' height="auto" width="260" ></div>
+<div align=center><img src='https://github.com/DrHoisu/Channel_Mixer_Layer/blob/main/figure/convlstm/1channel/iono_1channel_125_true.gif?raw=true' height="auto" width="260" ></div>
 
-| ConvLSTM Result | Mixer-ConvLSTM | 
+| ConvLSTM Result | Mixer-ConvLSTM Result | 
 | :---: | :---: |
-| <div align=center><img src='https://github.com/chengtan9907/OpenSTL/releases/download/vis-video/mmnist_ConvLSTM.gif' height="auto" width="260" ></div> | <div align=center><img src='https://github.com/chengtan9907/OpenSTL/releases/download/vis-video/moving_fashionmnist_ConvLSTM.gif' height="auto" width="260" ></div> |
+| <div align=center><img src='https://github.com/DrHoisu/Channel_Mixer_Layer/blob/main/figure/convlstm/1channel/iono_1channel_125_pred.gif?raw=true' height="auto" width="260" ></div> | <div align=center><img src='https://github.com/DrHoisu/Channel_Mixer_Layer/blob/main/figure/convlstm/mix_16channel/iono_mix_16channel_125_pred.gif?raw=true' height="auto" width="260" ></div> |
 
-| Moving MNIST-CIFAR | KittiCaltech |
+| MIM Result | Mixer-MIM Result |
 | :---: | :---: |
-|  <div align=center><img src='https://github.com/chengtan9907/OpenSTL/releases/download/vis-video/moving_mnist_cifar_ConvLSTM.gif' height="auto" width="260" ></div> | <div align=center><img src='https://github.com/chengtan9907/OpenSTL/releases/download/vis-video/kitticaltech_ConvLSTM.gif' height="auto" width="260" ></div> |
+|  <div align=center><img src='https://github.com/DrHoisu/Channel_Mixer_Layer/blob/main/figure/mim/1channel/iono_1channel_125_pred.gif?raw=true' height="auto" width="260" ></div> | <div align=center><img src='https://github.com/DrHoisu/Channel_Mixer_Layer/blob/main/figure/mim/concatenate_16channel/iono_concatenate_16channel_125_pred.gif?raw=true' height="auto" width="260" ></div> |
 
-| KTH | Human 3.6M | 
+| PredRNN Result | Mixer-PredRNN Result |
 | :---: | :---: |
-| <div align=center><img src='https://github.com/chengtan9907/OpenSTL/releases/download/vis-video/kth20_ConvLSTM.gif' height="auto" width="260" ></div> | <div align=center><img src='https://github.com/chengtan9907/OpenSTL/releases/download/vis-video/human_ConvLSTM.gif' height="auto" width="260" ></div> |
+| <div align=center><img src='https://github.com/DrHoisu/Channel_Mixer_Layer/blob/main/figure/predrnn/1channel/iono_1channel_125_pred.gif?raw=true' height="auto" width="260" ></div> | <div align=center><img src='https://github.com/DrHoisu/Channel_Mixer_Layer/blob/main/figure/predrnn/mix_16channel/iono_mix_16channel_125_pred.gif?raw=true' height="auto" width="260" ></div> |
 
-| Traffic - in flow | Traffic - out flow |
+| SimVP Result | Mixer-SimVP Result |
 | :---: | :---: |
-| <div align=center><img src='https://github.com/chengtan9907/OpenSTL/releases/download/vis-traffic/taxibj_in_flow_ConvLSTM.gif' height="auto" width="260" ></div> | <div align=center><img src='https://github.com/chengtan9907/OpenSTL/releases/download/vis-traffic/taxibj_out_flow_ConvLSTM.gif' height="auto" width="260" ></div> |
+| <div align=center><img src='https://github.com/DrHoisu/Channel_Mixer_Layer/blob/main/figure/simvp/1channel/iono_1channel_125_pred.gif?raw=true' height="auto" width="260" ></div> | <div align=center><img src='https://github.com/DrHoisu/Channel_Mixer_Layer/blob/main/figure/simvp/concatenate_16channel/iono_concatenate_16channel_125_pred.gif?raw=true' height="auto" width="260" ></div> |
+
+| TAU Result | Mixer-TAU Result |
+| :---: | :---: |
+| <div align=center><img src='https://github.com/DrHoisu/Channel_Mixer_Layer/blob/main/figure/tau/1channel/iono_1channel_125_pred.gif?raw=true' height="auto" width="260" ></div> | <div align=center><img src='https://github.com/DrHoisu/Channel_Mixer_Layer/blob/main/figure/tau/concatenate_16channel/iono_concatenate_16channel_125_pred.gif?raw=true' height="auto" width="260" ></div> |
+
+| PredRNN++ Result | Mixer-PredRNN++ Result |
+| :---: | :---: |
+| <div align=center><img src='https://github.com/DrHoisu/Channel_Mixer_Layer/blob/main/figure/predrnnpp/1channel/iono_1channel_125_pred.gif?raw=true' height="auto" width="260" ></div> | <div align=center><img src='https://github.com/DrHoisu/Channel_Mixer_Layer/blob/main/figure/predrnnpp/mix_16channel/iono_mix_16channel_125_pred.gif?raw=true' height="auto" width="260" ></div> |
 
 </div>
 
