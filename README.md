@@ -1,3 +1,4 @@
+https://github.com/DrHoisu/Channel_Mixer_Layer
 <p align="center" width="100%">
   <img src='https://github.com/DrHoisu/Channel_Mixer_Layer/blob/main/figure/logo.png?raw=true' width="90%">
 </p>
