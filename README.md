@@ -155,6 +155,14 @@ The visualization of 16-channel multimodal fusion prediction with Mixer-ConvLSTM
 python tools/visualizations/vis_video.py -d iono -w work_dirs/iono/convlstm/mix_16channel --index 125 --save_dirs visualization/iono/convlstm/mix_16channel/
 ```
 
+#### static comparison
+
+<p align="center" width="100%">
+  <img src='https://github.com/DrHoisu/Channel_Mixer_Layer/blob/main/figure/Figure3.png?raw=true' width="100%">
+</p>
+
+#### dynamic comparison
+
 <div align="center">
 Ground Truth
 <div align=center><img src='https://github.com/chengtan9907/OpenSTL/releases/download/vis-video/mmnist_ConvLSTM.gif' height="auto" width="260" ></div>
