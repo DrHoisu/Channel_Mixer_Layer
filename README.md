@@ -93,7 +93,7 @@ bash scripts/iono/simvp/simvp.sh
 bash scripts/iono/tau/tau.sh
 ```
 <p align="center" width="50%">
-Table 1 The quantitative performance comparison for the different network backbones, multimodal fusion methods and input channel number $C_{\mathrm{in}}$. The computational complexity is evaluated by parameter number (Param.), Floating-point Operations Per Second (Flops) and inference speed. The prediction accuracy is evaluated by mean squared error (MSE) and mean absolute error (MAE) during low/high solar activity (LSA/HSA) periods.
+Table 1 The quantitative performance comparison for the different network backbones, multimodal fusion methods and input channel number $C_{\mathrm{in}}$. The computational complexity is evaluated by parameter number (Param.), Floating-point Operations Per Second (Flops) and inference speed. The prediction accuracy is evaluated by mean squared error (MSE), mean absolute error (MAE) and root mean square error (RMSE) during low/high solar activity (LSA/HSA) periods.
 </p>
 <p align="center" width="100%">
   <img src='https://github.com/DrHoisu/Channel_Mixer_Layer/blob/main/figure/Table1.png?raw=true' width="100%">
@@ -192,3 +192,10 @@ Ground Truth
 This project is released under the [Apache 2.0 license](LICENSE).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+## Citation
+If you are interested in our repository or our paper, please cite the following paper:
+### Text Format
+```shell
+Liu, P., Yokoyama, T., Sori, T., & Yamamoto, M. (2024). Channel Mixer Layer: Multimodal Fusion Towards Machine Reasoning for Spatiotemporal Predictive Learning of Ionospheric Total Electron Content. Space Weather, e2024SW004121. https://doi.org/10.1029/2024SW004121
+```
