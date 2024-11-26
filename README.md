@@ -187,16 +187,16 @@ Ground Truth
 
 </div>
 
-## License
-
-This project is released under the [Apache 2.0 license](LICENSE).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ## Citation
 If you are interested in our repository or our paper, please cite the following paper:
 ### Text Format
 
 Liu, P., Yokoyama, T., Sori, T., & Yamamoto, M. (2024). Channel Mixer Layer: Multimodal Fusion Towards Machine Reasoning for Spatiotemporal Predictive Learning of Ionospheric Total Electron Content. Space Weather, e2024SW004121.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## License
+
+This project is released under the [Apache 2.0 license](LICENSE).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
