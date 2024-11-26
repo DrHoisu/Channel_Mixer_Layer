@@ -1,19 +1,5 @@
 # Installation
 
-## Install the project
-
-This project has provided an environment setting file of conda, users can easily reproduce the environment by the following commands:
-```shell
-git clone https://github.com/chengtan9907/OpenSTL
-cd OpenSTL
-conda env create -f environment.yml
-conda activate OpenSTL
-python setup.py develop  # or `pip install -e .`
-```
-
-<details close>
-<summary>Requirements</summary>
-
 * Linux (Windows is not officially supported)
 * Python 3.7+
 * PyTorch 1.8 or higher
@@ -66,6 +52,9 @@ We support following datasets: [Human3.6M](http://vision.imar.ro/human3.6m/pami-
 OpenSTL
 ├── configs
 └── data
+    ├── iono_electron
+    │   ├── train
+    │   ├── test
     ├── caltech
     │   ├── set06
     │   ├── ...
@@ -109,6 +98,10 @@ OpenSTL
     |   ├── 2m_temperature
     |   ├── ...
 ```
+
+### Moving MNIST / FMNIST
+
+[iono_electron](https://doi.org/10.5281/zenodo.13165939) is a gobal ionospheric Total Electron Content (TEC) dataset for space weather forecasting, which is made by packaging the TEC map derived from Centre for Orbit Determination in Europe (CODE): [web link](http://www.aiub.unibe.ch/download/CODE), together with the auxiliary factors such as solar and geomagnetic activity indices derived from OMNI dataset: [OMNI](https://spdf.gsfc.nasa.gov/pub/data/omni/low_res_omni/).
 
 ### Moving MNIST / FMNIST
 
