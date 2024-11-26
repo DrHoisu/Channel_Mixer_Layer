@@ -31,7 +31,7 @@ This repository is the official implementation of our *Space Weather* journal pa
 <summary>Hardware Recommendation</summary>
 
 - `RAM memory` > 16 GB
-- `GPU` > Nvidia RTX 3090 with the VRAM larger than 24 GB
+- `GPU` >= Nvidia RTX 3090 with the VRAM larger than 24 GB
 
 </details>
 
