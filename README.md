@@ -51,7 +51,7 @@ This repository is the official implementation of our *Space Weather* journal pa
 
 ## Installation
 
-This project has provided an environment setting file of conda, users can easily reproduce the environment by the following commands:
+This project has provided an environment setting file of conda, users can easily reproduce the environment by the following commands (type in one by one):
 ```shell
 git clone https://github.com/DrHoisu/Channel_Mixer_Layer
 cd Channel_Mixer_Layer
