@@ -99,7 +99,7 @@ OpenSTL
     |   ├── ...
 ```
 
-### Moving MNIST / FMNIST
+### Iono_Electron
 
 [iono_electron](https://doi.org/10.5281/zenodo.13165939) is a gobal ionospheric Total Electron Content (TEC) dataset for space weather forecasting, which is made by packaging the TEC map derived from Centre for Orbit Determination in Europe (CODE): [web link](http://www.aiub.unibe.ch/download/CODE), together with the auxiliary factors such as solar and geomagnetic activity indices derived from OMNI dataset: [OMNI](https://spdf.gsfc.nasa.gov/pub/data/omni/low_res_omni/).
 
