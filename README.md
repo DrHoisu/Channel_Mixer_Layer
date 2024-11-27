@@ -6,8 +6,8 @@ Github Repository, Please access: https://github.com/DrHoisu/Channel_Mixer_Layer
 # Channel Mixer Layer: Multimodal Fusion Towards Machine Reasoning for Spatiotemporal Predictive Learning of Ionospheric Total Electron Content
 
 <p align="left">
-<a href="https://doi.org/10.1029/2024SW004121" alt="DOI">
-    <img src="https://img.shields.io/badge/doi/10.1029/2024SW004121.svg?style=flat" /></a>
+%<a href="https://doi.org/10.1029/2024SW004121" alt="DOI">
+%    <img src="https://img.shields.io/badge/doi/10.1029/2024SW004121.svg?style=flat" /></a>
 <a href="https://github.com/DrHoisu/Channel_Mixer_Layer/blob/main/LICENSE" alt="license">
     <img src="https://img.shields.io/badge/license-Apache--2.0-%23002FA7" /></a>
 <a href="https://github.com/DrHoisu/Channel_Mixer_Layer/issues" alt="docs">
