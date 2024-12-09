@@ -188,10 +188,27 @@ Ground Truth
 </div>
 
 ## Citation
-If you are interested in our repository or our paper, please cite the following paper:
+If you are interested in our repository or our paper, please cite the following journal paper:
 #### Text Format
 
-Liu, P., Yokoyama, T., Sori, T., & Yamamoto, M. (2024). Channel Mixer Layer: Multimodal Fusion Towards Machine Reasoning for Spatiotemporal Predictive Learning of Ionospheric Total Electron Content. Space Weather, e2024SW004121. https://doi.org/10.1029/2024SW004121
+Liu, P., Yokoyama, T., Sori, T., & Yamamoto, M. (2024). Channel mixer layer: Multimodal fusion toward machine reasoning for spatiotemporal predictive learning of ionospheric total electron content. Space Weather, 22, e2024SW004121. https://doi.org/10.1029/2024SW004121
+
+#### Bibtex Format
+
+@article{https://doi.org/10.1029/2024SW004121,
+author = {Liu, Peng and Yokoyama, Tatsuhiro and Sori, Takuya and Yamamoto, Mamoru},
+title = {Channel Mixer Layer: Multimodal Fusion Toward Machine Reasoning for Spatiotemporal Predictive Learning of Ionospheric Total Electron Content},
+journal = {Space Weather},
+volume = {22},
+number = {12},
+pages = {e2024SW004121},
+keywords = {multimodal fusion, machine reasoning, spatiotemporal predictive learning, ionosphere, Total Electron Content, deep learning},
+doi = {https://doi.org/10.1029/2024SW004121},
+url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024SW004121},
+eprint = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2024SW004121},
+note = {e2024SW004121 2024SW004121},
+year = {2024}
+}
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
