@@ -195,6 +195,7 @@ Liu, P., Yokoyama, T., Sori, T., & Yamamoto, M. (2024). Channel mixer layer: Mul
 
 #### Bibtex Format
 
+```
 @article{https://doi.org/10.1029/2024SW004121,
 author = {Liu, Peng and Yokoyama, Tatsuhiro and Sori, Takuya and Yamamoto, Mamoru},
 title = {Channel Mixer Layer: Multimodal Fusion Toward Machine Reasoning for Spatiotemporal Predictive Learning of Ionospheric Total Electron Content},
@@ -209,7 +210,7 @@ eprint = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2024SW004121},
 note = {e2024SW004121 2024SW004121},
 year = {2024}
 }
-
+```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## License
